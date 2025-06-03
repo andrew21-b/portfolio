@@ -103,10 +103,22 @@ header {
     margin-bottom: 100px;
 }
 
+.experience {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.experience-text {
+    padding: 30px;
+}
+
 .square {
     width: 98%;
     margin: 1%;
-    height: 350px;
+    height: fit-content;
     background-color: rgb(255, 255, 255);
     text-align: center;
 }
@@ -244,6 +256,12 @@ header {
     background-color: rgb(188, 200, 221);
 }
 
+.thumbnail-images {
+    display: block;  /* Make it a block element */
+    margin: 0 auto;
+    height: 400px;
+    width: 500px;
+}
 
 footer {
     display: flex;
@@ -265,6 +283,9 @@ footer {
     }
 
     .square {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
         width: 48%;
         margin: 1%;
         height: 600px;
